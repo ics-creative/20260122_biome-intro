@@ -2,13 +2,13 @@
 	"name": "20260122_biome-intro",
 	"private": true,
 	"version": "0.0.0",
-	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"preview": "vite preview",
-		"format": "biome format --write .",
-		"lint": "biome lint ."
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check"
 	},
 	"dependencies": {
 		"react": "^19.2.0",

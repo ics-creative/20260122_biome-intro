@@ -6,13 +6,17 @@ function App() {
 
 	return (
 		<>
-			<div className="logo">❤️</div>
-			<h1>Biome Intro</h1>
-			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>
-					count is {count}
-				</button>
-			</div>
+			<h1>Click Me!</h1>
+			<button
+				type="button"
+				className="tree"
+				onClick={() => {
+					setCount(count + 1);
+				}}
+			>
+				🌲
+			</button>
+			<div className="count">count is {count}</div>
 		</>
 	);
 }
