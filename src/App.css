@@ -1,16 +1,16 @@
 #root {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 2rem;
-	text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 .tree {
-	cursor: pointer;
-	font-size: 120px;
-	background-color: transparent;
-	transition: transform 0.1s ease;
-	&:active {
-		transform: scale(0.75);
-	}
+  cursor: pointer;
+  font-size: 120px;
+  background-color: transparent;
+  transition: transform 0.1s ease;
+  &:active {
+    transform: scale(0.75);
+  }
 }
